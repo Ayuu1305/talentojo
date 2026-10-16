@@ -1,0 +1,15 @@
+{
+  "name": "store-rating-platform",
+  "version": "1.0.0",
+  "description": "FullStack Store Rating Platform",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "server": "npm run dev --prefix backend",
+    "client": "npm run dev --prefix frontend",
+    "dev": "node -e \"console.log('Run backend in one terminal (npm run server) and frontend in another (npm run client)')\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
